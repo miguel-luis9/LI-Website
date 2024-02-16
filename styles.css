@@ -1,5 +1,82 @@
 body{
-    margin: 0;
-    background: pink;
-    text-align: center;
+  margin: 0;
+  background: rgb(50, 148, 234);
+  text-align: center;
+}
+button{
+  background: blue;
+}
+.leftAli{
+  text-align: center;
+}
+ 
+.sub-button {
+  background: rgb(200,0,0);
+  color: white;
+  border: none;
+  margin-right: 8px;
+  margin-left: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.sub-button:hover{
+  opacity: 0.8;
+}
+
+.sub-button:active{
+  opacity: 0.5;
+}
+
+.join-button {
+  color: rgb(41,118,211);
+  border-color: rgb(41,118,211);
+  border-style: solid;
+  border-width: 1px;
+  background: white;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  transition: background-color .15s,
+    color .15s;
+}
+
+.join-button:hover{
+  background-color:rgb(41,118,211);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgb(2,137, 255);
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.5s;
+  vertical-align: top;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); */
+
 }
